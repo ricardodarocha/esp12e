@@ -1,28 +1,30 @@
-#define d0 16
-#define d1 5
-#define d2 4
-#define d3 0
-#define d4 2
-#define d5 14
-#define d6 12
-#define d7 13
-#define d8 15
+#define D0 16
+#define D1 5
+#define D2 4
+#define D3 0
+#define D4 2
+#define D5 14
+#define D6 12
+#define D7 13
+#define D8 15
 
-#define rx 3
-#define tx 1
+#define RX 3
+#define TX 1
 
-#define led1 d6
+#define LED D6
+
+const int VELOCIDADE=1000;
 
 void setup() {
-  pinMode(led1, OUTPUT);
+  pinMode(LED, OUTPUT);
 
 }
 
 void loop() {
-  digitalWrite(led1, HIGH);
-  delay(1000);
+  digitalWrite(LED, HIGH);
+  delay(VELOCIDADE);
 
-  digitalWrite(led1, LOW);
-  delay(1000);
+  digitalWrite(LED, LOW);
+  delay(VELOCIDADE);
 
 }
