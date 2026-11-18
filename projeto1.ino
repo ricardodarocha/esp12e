@@ -11,7 +11,7 @@
 #define RX 3
 #define TX 1
 
-#define LED D6
+#define LED D0
 
 const int VELOCIDADE=1000;
 //desacelera const int VELOCIDADE=2000;
