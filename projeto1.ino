@@ -14,6 +14,8 @@
 #define LED D6
 
 const int VELOCIDADE=1000;
+//desacelera const int VELOCIDADE=2000;
+//acelera const int VELOCIDADE=500;
 
 void setup() {
   pinMode(LED, OUTPUT);
