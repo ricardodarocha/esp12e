@@ -16,3 +16,8 @@ Projeto1 - Led Intermitente
 Projeto2 - Wifi, Sensor de Temperatura
 
 Projeto 3 - Recortes
+
+## Links
+
+LCD Crystal e LCD I2C 
+https://www.youtube.com/watch?v=ihGy5dZX_fo
